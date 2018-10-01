@@ -3,7 +3,6 @@ import Layout from "../components/layout";
 
 export default () => (
 	<Layout>
-		<em>Remember the good times, even in the worst of times</em>
-		<p>It all started during a</p>
+		<em>Oops! This page isn't ready yet! Check back later!</em>
 	</Layout>
 );
