@@ -2,5 +2,8 @@ import React from "react";
 import Layout from "../components/layout";
 
 export default () => (
-	<Layout>Whoops! This page isn't finished yet. Check back later!</Layout>
+	<Layout>
+		<em>Remember the good times, even in the worst of times</em>
+		<p>It all started during a</p>
+	</Layout>
 );
