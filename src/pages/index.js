@@ -1,19 +1,38 @@
 import React from "react";
 import Layout from "../components/layout";
+import BlockQuote from "../components/blockquote";
+import mom from "./Retina_Short_Mama.png";
+import baby from "./Retina_Short_Baby.png";
+import shark from "./Retina_Short_Shark.png";
 
 export default () => (
 	<Layout selected="Home">
-		Thanks for checking us out! We are currently in the setup process, and
-		this page will be changing quite a bit over the next couple of weeks. To
-		be notified when the construction is done, check me out on Twitter{" "}
-		<a
-			href="https://twitter.com/TheXmasShark"
-			style={{
-				textShadow: `none`,
-				backgroundImage: `none`,
-			}}
-		>
-			@TheXmasShark
-		</a>
+		<h1>Meet the family</h1>
+		<div>
+			<table>
+				<tr>
+					<td className={`borderless`}>
+						<img src={mom} />
+					</td>
+					<td className={`borderless`}>
+						<img src={baby} />
+					</td>
+					<td className={`borderless`}>
+						<img src={shark} />
+					</td>
+				</tr>
+				<tr>
+					<td className={`borderless`}>
+						<BlockQuote>Mama Shark</BlockQuote>
+					</td>
+					<td className={`borderless`}>
+						<BlockQuote>Baby Shark</BlockQuote>
+					</td>
+					<td className={`borderless`}>
+						<BlockQuote>Santa Shark</BlockQuote>
+					</td>
+				</tr>
+			</table>
+		</div>
 	</Layout>
 );

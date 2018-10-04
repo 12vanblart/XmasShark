@@ -1,6 +1,7 @@
 import React from "react";
 import Layout from "../components/layout";
 import BlockQuote from "../components/blockquote";
+import basicShark from "./Retina_Short_Shark.png";
 
 export default () => (
 	<Layout>
@@ -9,6 +10,7 @@ export default () => (
 			<em>Twas the night before Christmas... </em>
 			<b>Not really.</b>
 		</p>
+
 		<p>
 			It was just your average family Christmas cookie baking session when
 			we heard our mom ask,
@@ -33,5 +35,6 @@ export default () => (
 			Ever since, it's been a recurring family joke. But also...{" "}
 			<em>how else would Santa deliver presents to Atlantis</em>
 		</p>
+		<img src={basicShark} />
 	</Layout>
 );

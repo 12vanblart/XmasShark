@@ -26,12 +26,13 @@ const ListLink = props => (
 );
 
 export default ({ children }) => (
-	<div id={`body`} style={{ minHeight: `100vh` }}>
+	<div id={`body`} /*style={{ minHeight: `100vh` }}*/>
 		<div
 			id={`header`}
 			style={{
 				backgroundColor: `#8B2D2D`,
 				fontWeight: `bold`,
+				padding: `7px 7px`,
 			}}
 		>
 			<Link
@@ -50,6 +51,7 @@ export default ({ children }) => (
 			<ul style={{ listStyle: `none` }}>
 				<ListLink to="/">Home</ListLink>
 				<ListLink to="/about/">About</ListLink>
+				<ListLink to="/merch/">Merch</ListLink>
 			</ul>
 		</div>
 		<div

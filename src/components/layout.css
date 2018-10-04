@@ -7,6 +7,10 @@
 		text-align: center;
 	}
 
+	.siteName {
+		margin-top: 5px;
+	}
+
 	#header {
 		height: 100px;
 		padding-top: 20px;
@@ -15,4 +19,8 @@
 	#header > ul {
 		float: none;
 	}
+}
+
+.borderless {
+	border: none;
 }
