@@ -35,6 +35,6 @@ export default () => (
 			Ever since, it's been a recurring family joke. But also...{" "}
 			<em>how else would Santa deliver presents to Atlantis</em>
 		</p>
-		<img src={basicShark} />
+		<img src={basicShark} alt="Santa Shark" />
 	</Layout>
 );

@@ -14,6 +14,7 @@ const Amazon = props => (
 		href={props.to}
 		style={{
 			backgroundImage: `none`,
+			color: `black`,
 		}}
 	>
 		<FontAwesomeIcon icon={faAmazon} />
@@ -27,7 +28,7 @@ const RedBubble = props => (
 			backgroundImage: `none`,
 		}}
 	>
-		<img icon={faAmazon} src={rbLogo} />
+		<img alt="RedBubble Logo Link" src={rbLogo} />
 	</a>
 );
 
@@ -42,18 +43,19 @@ export default () => (
 		<BlockQuote>
 			<h1>Santa Shark</h1>
 			<img src={shark} alt="Santa Shark" />
-		</BlockQuote>
-
-		<hr />
-		<BlockQuote>
-			<h1>Baby Shark</h1>
-			<img src={baby} alt="Baby Shark" />
+			<Amazon to="http://bit.ly/xmasSharkShirt" />
 		</BlockQuote>
 
 		<hr />
 		<BlockQuote>
 			<h1>Mama Shark</h1>
 			<img src={mom} alt="Mama Shark" />
+		</BlockQuote>
+
+		<hr />
+		<BlockQuote>
+			<h1>Baby Shark</h1>
+			<img src={baby} alt="Baby Shark" />
 		</BlockQuote>
 
 		<hr />
