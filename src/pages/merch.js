@@ -41,9 +41,25 @@ export default () => (
 		<hr />
 		<BlockQuote>
 			<h1>Santa Shark</h1>
-			<img src={shark} />
-			<Amazon to="" />
-			<RedBubble to="" />
+			<img src={shark} alt="Santa Shark" />
+		</BlockQuote>
+
+		<hr />
+		<BlockQuote>
+			<h1>Baby Shark</h1>
+			<img src={baby} alt="Baby Shark" />
+		</BlockQuote>
+
+		<hr />
+		<BlockQuote>
+			<h1>Mama Shark</h1>
+			<img src={mom} alt="Mama Shark" />
+		</BlockQuote>
+
+		<hr />
+		<BlockQuote>
+			<h1>Mom & Baby Shark</h1>
+			<img src={mc} alt="Mom & Child Shark" />
 		</BlockQuote>
 	</Layout>
 );

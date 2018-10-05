@@ -1,7 +1,7 @@
 import React from "react";
 import Layout from "../components/layout";
 import BlockQuote from "../components/blockquote";
-import mom from "./Retina_Short_Mama.png";
+import mom from "./Retina_Short_MC.png";
 import baby from "./Retina_Short_Baby.png";
 import shark from "./Retina_Short_Shark.png";
 
