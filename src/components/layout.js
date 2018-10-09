@@ -2,6 +2,7 @@ import React from "react";
 import { Link } from "gatsby";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faTwitter } from "@fortawesome/free-brands-svg-icons";
+import "./layout.css";
 
 const ListLink = props => (
 	<li
@@ -25,11 +26,13 @@ const ListLink = props => (
 );
 
 export default ({ children }) => (
-	<body style={{ minHeight: `100vh` }}>
+	<div id={`body`} /*style={{ minHeight: `100vh` }}*/>
 		<div
+			id={`header`}
 			style={{
 				backgroundColor: `#8B2D2D`,
 				fontWeight: `bold`,
+				padding: `7px 7px`,
 			}}
 		>
 			<Link
@@ -45,9 +48,10 @@ export default ({ children }) => (
 			>
 				The Xmas Shark
 			</Link>
-			<ul style={{ listStyle: `none`, float: `right` }}>
+			<ul style={{ listStyle: `none` }}>
 				<ListLink to="/">Home</ListLink>
 				<ListLink to="/about/">About</ListLink>
+				<ListLink to="/merch/">Merch</ListLink>
 			</ul>
 		</div>
 		<div
@@ -81,5 +85,5 @@ export default ({ children }) => (
 				</a>
 			</div>
 		</footer>
-	</body>
+	</div>
 );
