@@ -50,12 +50,14 @@ export default () => (
 		<BlockQuote>
 			<h1>Mama Shark</h1>
 			<img src={mom} alt="Mama Shark" />
+			<Amazon to="http://bit.ly/mamaSharkShirt" />
 		</BlockQuote>
 
 		<hr />
 		<BlockQuote>
 			<h1>Baby Shark</h1>
 			<img src={baby} alt="Baby Shark" />
+			<Amazon to="http://bit.ly/babySharkShirt" />
 		</BlockQuote>
 
 		<hr />
