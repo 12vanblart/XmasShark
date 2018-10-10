@@ -57,7 +57,7 @@ export default ({ children }) => (
             style={{
                 margin: `0 auto`,
                 maxWidth: 650,
-                padding: `0 1rem`
+                padding: `0 1rem 50px`
             }}
         >
             {children}
