@@ -1,26 +1,30 @@
 #header > ul {
-	float: right;
+    float: right;
 }
 
 @media only screen and (max-width: 600px) {
-	#body {
-		text-align: center;
-	}
+    #body {
+        text-align: center;
+    }
 
-	.siteName {
-		margin-top: 5px;
-	}
+    .siteName {
+        margin-top: 5px;
+    }
 
-	#header {
-		height: 100px;
-		padding-top: 20px;
-	}
+    #header {
+        height: 100px;
+        padding-top: 20px;
+    }
 
-	#header > ul {
-		float: none;
-	}
+    #header > ul {
+        float: none;
+    }
 }
 
 .borderless {
-	border: none;
+    border: none;
+}
+
+footer a {
+    font-size: 18pt;
 }
