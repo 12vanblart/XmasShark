@@ -7,7 +7,6 @@ import shark from "./Retina_Short_Shark.png";
 import mc from "./Retina_Short_MC.png";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faAmazon } from "@fortawesome/free-brands-svg-icons";
-import rbLogo from "./rbubbleLogo.jpg";
 
 const Amazon = props => (
 	<a
@@ -18,17 +17,6 @@ const Amazon = props => (
 		}}
 	>
 		<FontAwesomeIcon icon={faAmazon} />
-	</a>
-);
-
-const RedBubble = props => (
-	<a
-		href={props.to}
-		style={{
-			backgroundImage: `none`,
-		}}
-	>
-		<img alt="RedBubble Logo Link" src={rbLogo} />
 	</a>
 );
 
