@@ -80,7 +80,12 @@ export default ({ children }) => (
                         color: `#1DA1F2`
                     }}
                 >
-                    <FontAwesomeIcon icon={faTwitter} />
+                    <FontAwesomeIcon
+                        style={{
+                            fontSize: `18pt`
+                        }}
+                        icon={faTwitter}
+                    />
                 </a>
             </div>
         </footer>
