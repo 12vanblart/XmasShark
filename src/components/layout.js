@@ -1,5 +1,6 @@
 import React from "react";
 import { Link } from "gatsby";
+import { FaTwitter } from "react-icons/fa";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faTwitter } from "@fortawesome/free-brands-svg-icons";
 import "./layout.css";
@@ -80,7 +81,8 @@ export default ({ children }) => (
                         color: `#1DA1F2`
                     }}
                 >
-                    <FontAwesomeIcon size="3x" icon={faTwitter} />
+                    <FontAwesomeIcon size="lg" icon={faTwitter} />
+                    <FaTwitter size="18pt" />
                 </a>
             </div>
         </footer>
