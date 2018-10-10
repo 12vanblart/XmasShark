@@ -2,6 +2,7 @@ import React from "react";
 import { Link } from "gatsby";
 import { FaTwitter } from "react-icons/fa";
 import "./layout.css";
+import { Helmet } from "react-helmet";
 
 const ListLink = props => (
     <li
@@ -26,6 +27,10 @@ const ListLink = props => (
 
 export default ({ children }) => (
     <div id={`body`} /*style={{ minHeight: `100vh` }}*/>
+        <Helmet>
+            <meta name="theme-color" content="#8C2929" />
+            <title>Xmas Shark</title>
+        </Helmet>
         <div
             id={`header`}
             style={{
